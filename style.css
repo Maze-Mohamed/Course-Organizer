@@ -3,9 +3,11 @@ body{
     background-size:cover;
     background-position:center;
     background-repeat:no-repeat;
-    background-attachment:fixed;   
+    background-attachment:fixed; 
+    display:flex;
+    flex-direction:column;  
     min-width:100%;
-    min-height:100%;
+    min-height:100vh;
     margin:0;
 }
 header{
@@ -34,6 +36,9 @@ nav a{
 nav a:hover{
     color:darkred;
 }
+main{
+    flex:1;
+}
 section,p,b{
     padding:2px;
 }
@@ -52,7 +57,6 @@ img{
     margin:5px;
 }
 table{
-    width:75%;
     white-space:nowrap;
     margin:5px;
 }
@@ -296,7 +300,7 @@ footer{
     border-radius:15px;
     justify-content:center;
     align-items:center;
-    width:50%;
+    width:60%;
     padding:3px;
     margin:auto;
     }
